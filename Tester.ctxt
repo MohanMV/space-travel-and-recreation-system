@@ -1,0 +1,8 @@
+#BlueJ class context
+comment0.target=Tester
+comment0.text=\r\n\ \r\nThis\ is\ a\ tester\ for\ resort\ manager\r\n\ @author\ (Mohankumaar\ Maha\ Veerachakkravarthi)\r\n\ @version\ (28/04/2020)\r\n
+comment1.params=args
+comment1.target=void\ main(java.lang.String[])
+comment2.params=
+comment2.target=void\ doTest1()
+numComments=3

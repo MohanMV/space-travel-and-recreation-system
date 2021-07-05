@@ -1,0 +1,19 @@
+#BlueJ class context
+comment0.target=Shuttle
+comment0.text=\r\n\ Used\ to\ store\ information\ about\ Shuttles\ which\ includes\ journey\ codes,\ source\ world\ and\ destination\ world\r\n\ Has\ methods\ that\ update\ details\ on\ world\ and\ card\ if\ a\ journey\ is\ made\r\n\ @author\ (Mohankumaar\ Maha\ Veerachakkravarthi)\r\n\ @version\ (27/04/2020)\r\n
+comment1.params=JourneyCode\ SourceWorld\ DestinationWorld
+comment1.target=Shuttle(java.lang.String,\ World,\ World)
+comment1.text=\r\n\ Constructor\ for\ objects\ of\ class\ Shuttle\r\n
+comment2.params=
+comment2.target=java.lang.String\ getShuttleID()
+comment2.text=\r\n\ Return\ string\ value\ journey\ code\r\n\ @return\ \ journey\ code\r\n
+comment3.params=c
+comment3.target=boolean\ AllowedToTravel(Card)
+comment3.text=\r\n\ To\ check\ if\ a\ card\ is\ allowed\ to\ travel\r\n\r\n\ @param\ \ Card\ object\r\n\ @return\ \ \ \ true\ if\ all\ conditions\ are\ met\ else\ return\ false;\r\n
+comment4.params=c
+comment4.target=java.lang.String\ ModifyDetails(Card)
+comment4.text=\r\n\ Makes\ appropriate\ changes\ to\ card\ details\ and\ world\ if\ a\ card(parameter)\ is\ allowed\ to\ travel\ \r\n\ and\ returns\ a\ suitable\ message\ stating\ changes\ have\ been\ made.\r\n\ or\ returns\ suitable\ message\ is\ card(parameter)\ is\ not\ allowed\ to\ travel\r\n\ @param\ Card\ object\r\n\ @return\ String\ message\ \r\n
+comment5.params=
+comment5.target=java.lang.String\ toString()
+comment5.text=\ Returns\ a\ String\ representation\ of\ the\ Shuttle\ information\r\n\ \ @return\ the\ shuttle\ information\ as\ a\ String\r\n
+numComments=6

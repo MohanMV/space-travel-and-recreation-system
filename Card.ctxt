@@ -1,0 +1,34 @@
+#BlueJ class context
+comment0.target=Card
+comment0.text=\ \r\n\ The\ card\ class\ is\ used\ to\ store\ information\ about\ a\ patient\ including\ CardID,\ Name,\ luxuring\ rating,\ credits\ and\ loyalty\ points.\r\n\ The\ constructor\ for\ this\ class\ uses\ appropriate\ paramters\ to\ set\ field\ values\ and\ sets\ loyalty\ points\ to\ zero.\r\n\ @author\ (Mohankumaar\ Maha\ Veerachakkravarthi)\r\n\ @version\ (27/04/2020)\r\n
+comment1.params=CardID\ Name\ LuxuryRating\ Credits
+comment1.target=Card(int,\ java.lang.String,\ int,\ int)
+comment1.text=\r\n\ Constructor\ for\ objects\ of\ class\ Card\r\n
+comment10.params=
+comment10.target=java.lang.String\ toString()
+comment10.text=\ Returns\ a\ String\ representation\ of\ the\ card\ information\r\n\ \ @return\ the\ card\ information\ as\ a\ String\r\n
+comment2.params=
+comment2.target=int\ CLuxuryRating()
+comment2.text=\r\n\ Returns\ card's\ luxury\ rating\r\n\ @return\ luxury\ rating\r\n
+comment3.params=
+comment3.target=int\ CCredits()
+comment3.text=\r\n\ Returns\ card's\ credits\r\n\ \r\n\ @return\ credits\r\n
+comment4.params=x
+comment4.target=void\ ChangeCredits(int)
+comment4.text=\r\n\ tops\ up\ credits\r\n\ @param\ the\ value\ intended\ to\ add\ to\ credits\r\n
+comment5.params=
+comment5.target=void\ ConvertLPointsToCredits()
+comment5.text=\r\n\ converts\ loyalty\ points\ to\ credits\ by\ first\ checking\ if\ loyalty\ points\ is\ sufficient\r\n\ then\ add\ the\ value\ of\ loyalty\ points\ divided\ by\ 4\ to\ credits(4\ loyalty\ points\ \=\ 1\ credits)\r\n\ using\ modulus\ to\ change\ current\ loyalty\ points\ to\ the\ remainder\ to\ loyalty\ points\ \r\n
+comment6.params=
+comment6.target=void\ ChangesAfterJourney()
+comment6.text=\r\n\ changes\ to\ card's\ credits\ and\ loyalty\ points\ after\ every\ journey\ made\r\n\ add\ 2\ loyalty\ points\ and\ deduct\ 3\ credits\r\n
+comment7.params=CostOfJourney
+comment7.target=boolean\ CheckShuttleJourney(int)
+comment7.text=\r\n\ Checks\ if\ the\ card's\ credits\ is\ higher\ or\ equal\ to\ the\ cost\ of\ a\ journey\r\n\ \r\n\ @param\ int\ value\ of\ the\ cost\ of\ a\ journey\r\n\ @return\ true\ or\ false\ depending\ on\ the\ condition\ is\ met\ ot\ not\r\n
+comment8.params=p
+comment8.target=boolean\ CheckCardID(int)
+comment8.text=\r\n\ \ \ `\ \ *\ checks\ if\ the\ paramter\ is\ the\ same\ as\ the\ card\ ID\ is\ same\ return\ true\ else\ return\ false\r\n
+comment9.params=
+comment9.target=int\ getCardID()
+comment9.text=\r\n\ Returns\ cardID\r\n\ @return\ \ \ \ Card\ ID\r\n
+numComments=11

@@ -1,0 +1,14 @@
+#BlueJ class context
+comment0.target=Challenge
+comment0.text=\r\n\ Write\ a\ description\ of\ class\ Challenge\ here.\r\n\r\n\ @author\ (your\ name)\r\n\ @version\ (a\ version\ number\ or\ a\ date)\r\n
+comment1.params=no\ dist\ Method
+comment1.target=Challenge(int,\ float,\ java.lang.String)
+comment1.text=\r\n\ Constructor\ for\ objects\ of\ class\ Challenge\r\n
+comment2.params=x
+comment2.target=void\ addDone(int)
+comment2.text=\r\n\ An\ example\ of\ a\ method\ -\ replace\ this\ comment\ with\ your\ own\r\n\r\n\ @param\ \ y\ \ a\ sample\ parameter\ for\ a\ method\r\n\ @return\ \ \ \ the\ sum\ of\ x\ and\ y\r\n
+comment3.params=
+comment3.target=float\ getDistance()
+comment4.params=
+comment4.target=java.lang.String\ toString()
+numComments=5
