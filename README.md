@@ -1,4 +1,4 @@
-# STARS
+# Space Travel and Recreation System
 
 Coursework from the University of Hertfordshire
 
